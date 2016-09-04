@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="delta.main.DeltaDriver">
+        <methods>
+          <include name="endFramework"/>
+          <include name="endFramework"/>
+          <include name="testScenarios" invocation-numbers="0"/>
+          <include name="launchApp"/>
+          <include name="launchApp"/>
+          <include name="quitApp"/>
+          <include name="quitApp"/>
+          <include name="initFrameWork"/>
+          <include name="initFrameWork"/>
+        </methods>
+      </class> <!-- delta.main.DeltaDriver -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test name="FireFoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="delta.main.DeltaDriver">
+        <methods>
+          <include name="endFramework"/>
+          <include name="endFramework"/>
+          <include name="testScenarios" invocation-numbers="0"/>
+          <include name="launchApp"/>
+          <include name="launchApp"/>
+          <include name="quitApp"/>
+          <include name="quitApp"/>
+          <include name="initFrameWork"/>
+          <include name="initFrameWork"/>
+        </methods>
+      </class> <!-- delta.main.DeltaDriver -->
+    </classes>
+  </test> <!-- FireFoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
