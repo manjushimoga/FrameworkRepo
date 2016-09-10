@@ -1,6 +1,6 @@
 package delta.main;
 
-
+//
 public interface AutomationConst {
 	
 	public String imageFolderPath="./ScreenShots";
